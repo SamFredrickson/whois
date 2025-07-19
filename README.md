@@ -1,4 +1,4 @@
-# Поиск игрока среди госуадсртвенных организаций на проекте Evovle Role Play(https://github.com/SamFredrickson/whois/releases/download/v1.0.0/whois-release-1.0.0.rar)
+# [Поиск игрока среди госуадсртвенных организаций на проекте Evovle Role Play](https://github.com/SamFredrickson/whois/releases/download/v1.0.0/whois-release-1.0.0.rar)
 Позволяет узнать в какой государственной организации состоит или состоял игрок и другую информацию
 ## Зависимости (установить перед запуском скрипта)
 -   [CLEO 4](https://cleo.li)
