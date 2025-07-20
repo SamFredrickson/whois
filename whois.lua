@@ -131,6 +131,7 @@ function handleSuccesfulResponse(response)
 end
 
 function handleFailedResponse(error)
-    sampAddChatMessage(" {ed5a5a}Произошла ошибка при попытке поиска", 0xFFFFFF)
+    print(error)
+    sampAddChatMessage(" {BABABA}Произошла ошибка при попытке поиска", 0xFFFFFF)
     return false
 end
