@@ -19,3 +19,7 @@
     ```sh
     cp whois/whois.lua .
     ```
+## Использование
+<p align="center">
+    <iframe width="1218" height="685" src="https://www.youtube.com/embed/0el1BkcH-Pc" title="Пробиваем кто-есть кто без /mdc (только гос. организации)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
