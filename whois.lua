@@ -119,12 +119,12 @@ function handleSuccesfulResponse(response)
     end
     sampAddChatMessage("---========== Результаты Поиска ==========---", 0xFFFFFF)
     for index, value in pairs(json.data[1]) do
-        if index == 1 then value = value:match("([A-Z]+)") end
+        if index == 1 then value = constants.FRACTIONS[value:match("([A-Z]+)")] end
         local message = string.format
         (
             " {ed5a5a}%s: {FFFFFF}%s", 
             constants.COLUMNS[index], 
-            u8:decode(value)
+            index == 1 and value or u8:decode(value)
         )
         sampAddChatMessage(message, 0xFFFFFF)
     end
